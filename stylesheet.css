@@ -1,0 +1,329 @@
+@font-face {
+    font-family: "San Francisco";
+    src: url(./fonts/SF-Pro-Display-Light.otf) format("truetype");
+  }
+
+@font-face {
+    font-family: "San Francisco";
+    src: url(./fonts/SF-Pro-Display-Medium.otf) format("truetype");
+    font-weight: bold;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'San Francisco';
+    font-size: 14px;
+}
+
+/* Navigation Bar */
+/* */
+
+header {
+    background: #353535;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+nav {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 15px;
+    margin-top: 12px;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin-left: 75px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+/* */
+
+.block {
+    display: inline-block;
+    margin: 0;
+    margin-top: 45px;
+    width: 100%;
+    height: 242px;
+    background-color: rgb(250, 250, 250);
+}
+
+.price {
+    width: 600px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.price h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.price h1 span {
+    font-size: 26px;
+}
+
+.price p {
+    width: 450px;
+    margin: 10px auto;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+.price p span:hover {
+    color: #0077ff;
+}
+
+.link {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.link p {
+    display: inline;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.link p a {
+    text-decoration: none;
+    color: #0161ce;
+}
+
+/* iPhone XR Section */
+/* */
+
+.block2 {
+    display: inline-block;
+    margin-top: 12px;
+    width: 100%;
+    height: 545px;
+    background-color: rgb(250, 250, 250);
+}
+
+.iphonexr {
+    width: 600px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.iphonexr img {
+    margin: 0;
+    width: 210px;
+}
+
+.iphonexr p {
+    width: 550px;
+    margin: 10px auto;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.link2 {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.link2 p {
+    display: inline;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.link2 p a {
+    text-decoration: none;
+    color: #0161ce;
+}
+
+.iphonexr_img {
+    width: 600px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.iphonexr_img img {
+    margin: 0;
+    width: 660px;
+}
+
+/* iPhone XS Section */
+/* */
+
+.block3 {
+    display: inline-block;
+    margin-top: 12px;
+    width: 100%;
+    height: 595px;
+    background-color: rgb(250, 250, 250);
+}
+
+.iphonexs {
+    width: 600px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.iphonexs img {
+    margin: 0;
+    width: 210px;
+}
+
+.iphonexs p {
+    width: 550px;
+    margin: 10px auto;
+    font-size: 24.5px;
+    line-height: 1.25;
+}
+
+.link3 {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.link3 p {
+    display: inline;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.link3 p a {
+    text-decoration: none;
+    color: #0161ce;
+}
+
+.iphonexs_img {
+    width: 600px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    max-height: 315px;
+    overflow: hidden;
+}
+
+.iphonexs_img img {
+    margin: 0;
+    width: 660px;
+    transform: translateY(-50px);
+}
+
+/* Apple Watch Section */
+/* */
+
+.block4 {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 595px;
+    background-color: rgb(250, 250, 250);
+}
+
+.applewatch {
+    width: 600px;
+    margin: 50px auto 0px auto;
+    text-align: center;
+}
+
+.applewatch img {
+    margin: 0;
+    width: 210px;
+}
+
+#series4 {
+    color: rgb(197, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 35px;
+}
+
+.applewatch p {
+    width: 550px;
+    margin: 10px auto;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.link4 {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.link4 p {
+    display: inline;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+.link4 p a {
+    text-decoration: none;
+    color: #0161ce;
+}
+
+.applewatch_img {
+    width: 600px;
+    height: 350px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.applewatch_img img {
+    margin: 0;
+    width: 500px;
+    transform: translateY(-40px);
+}
+
+/* Footer Section */
+
+footer {
+    display: inline-block;
+    margin-top: 12px;
+    width: 100%;
+    height: 125px;
+    background-color: rgb(250, 250, 250);
+}
+
+.bottom p {
+    width: 950px;
+    color: rgb(145, 145, 145);
+    font-size: 13.5px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.bottom p span {
+    font-size: 12px;
+}
+
+.bottom p a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.segment {
+    width: 950px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin: 0 auto;
+}
